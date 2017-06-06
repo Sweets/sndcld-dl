@@ -94,7 +94,7 @@ var get_file = function(extension) {
 
 var get_stream = function(track_id) {
 	    var client_id = "2t9loNQH90kzJcsFCODdigxfp325aq4z";
-	    var app_version = 1491855525;
+	    var app_version = 1496423089;
 	    var scheme = "https://api.soundcloud.com/i1/tracks/{0}/streams?client_id={1}&app_version={2}";
 	    var url = scheme.py_format(track_id, client_id, app_version);
 	    console.log(" [♥] Fetching streams for filesize ");
