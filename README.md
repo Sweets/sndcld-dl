@@ -15,4 +15,6 @@ Compilation:
 
 Usage:
 
-`$ ./sndcld https://soundcloud.com/iameden/r-r /tmp/music.mp3`
+Say we wanted soundcloud.com/iameden/r-r
+
+`$ ./sndcld iameden r-r /tmp/music.mp3`
