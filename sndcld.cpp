@@ -7,7 +7,7 @@
 #include <curlpp/cURLpp.hpp>
 #include <curlpp/Easy.hpp>
 #include <curlpp/Options.hpp>
-#include <json11.hpp>
+#include "json11/json11.hpp"
 
 // HERE BE DRAGONS
 
