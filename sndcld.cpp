@@ -1,13 +1,13 @@
-
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
+#include <sstream>
 #include <regex>
 
 #include <curlpp/cURLpp.hpp>
 #include <curlpp/Easy.hpp>
 #include <curlpp/Options.hpp>
-#include <json11.hpp>
+#include "json11/json11.hpp"
 
 // HERE BE DRAGONS
 
