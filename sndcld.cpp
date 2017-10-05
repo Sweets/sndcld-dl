@@ -1,7 +1,7 @@
-
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
+#include <sstream>
 #include <regex>
 
 #include <curlpp/cURLpp.hpp>
