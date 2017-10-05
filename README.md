@@ -11,7 +11,11 @@ This was more of a project to learn a little ofthe inner workings of SoundCloud 
 
 Compilation:
 
-`g++ sndcld.cpp -lcurlpp -lcurl -ljson11 -o sndcld`
+```
+mkdir build && cd build
+cmake ..
+make
+```
 
 Usage:
 
