@@ -172,7 +172,7 @@ namespace sndcld {
         while (url >> url_part)
             url_parts.push_back(url_part);
 
-        std::string malformed_url = url_parts.at(0) + "/" + url_parts.at(1) + "/" + url_parts.at(2) + "/0/" + url_parts.at(4) + "/" + url_parts.at(5);
+        std::string malformed_url = url_parts.at(0) + "//" + url_parts.at(1) + "/" + url_parts.at(2) + "/0/" + url_parts.at(4) + "/" + url_parts.at(5);
 
         return malformed_url;
 
