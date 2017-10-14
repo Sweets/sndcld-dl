@@ -227,7 +227,7 @@ int main(int argc, char **argv) {
         return 0;
 
     } catch (curlpp::LibcurlRuntimeError) {
-        printf("%s\n", " [(' ^ ';)] Unable to resolve host.");
+        printf("%s\n", " [(' ^ ';)] An error occured (curl).");
 
         return 1;
     }
