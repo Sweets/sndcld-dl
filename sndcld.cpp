@@ -82,12 +82,9 @@ namespace sndcld_util {
 namespace sndcld {
 
     std::string client_id;
-    long int appversion;
 
-    void set_params(std::string cid, long int av) {
-        client_id = cid;
-        appversion = av;
-        // The way those lines aligned is so satisfying
+    void set_client_id(std::string id) {
+        client_id = id;
     }
 
     namespace track_id_methods {
@@ -128,7 +125,7 @@ namespace sndcld {
             return "";
 
         const std::string streams_url = "https://api.soundcloud.com/i1/tracks/" + std::to_string(track_id) +
-            "/streams?client_id=" + client_id + "&app_version=" + std::to_string(appversion);
+            "/streams?client_id=" + client_id;
 
         const std::string response = sndcld_util::GET(streams_url, "");
         std::string ERROR = "";
@@ -205,7 +202,9 @@ int main(int argc, char **argv) {
     std::string url = "https://soundcloud.com/" + artist + "/" + title;
 
     printf("%s\n", " [❤] Setting client_id and appversion.");
-    sndcld::set_params("WKcQQdEZw7Oi01KqtHWxeVSxNyRzgT8M", 1505226596);
+    
+    sndcld::set_client_id("JAgPhXap7XK0g8dUOtklbE7UnF05W8AH");
+    
     printf("%s\n", " [❤] Getting track_id.");
 
     try {
