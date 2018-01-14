@@ -11,7 +11,7 @@ If you would like to use it as a node module, refer to the code snippet below.
 
 ```
 
-let sndcld_dl = require("./sndcld");
+let sndcld_dl = require("./sndcld-dl");
 
 sndcld_dl("https://soundcloud.com/iameden/r-r", "/tmp/eden.mp3");
 
