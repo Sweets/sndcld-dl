@@ -1,5 +1,0 @@
-# ignore build folder
-build/
-
-# OSX things
-.DS_Store
