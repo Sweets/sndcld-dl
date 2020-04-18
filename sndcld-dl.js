@@ -84,8 +84,6 @@ let sndcld_dl = function(url, path) {
         };
 
         let get_playlist_callback = function(playlist) {
-            console.log(" [❤] Getting track ID");
-            console.log(" [❤] Track ID found =>");
             console.log(" [❤] Getting playlist");
             console.log(" [❤] Got playlist");
             console.log(" [❤] Creating malformed URL");
