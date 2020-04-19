@@ -1,7 +1,6 @@
 
 let request = require("request");
 let filesystem = require("fs");
-let uuid = require("uuid").v4;
 
 let sndcld_dl = function(url, path) {
 
